@@ -8,6 +8,7 @@
 *.zip
 *.rar
 *.7z
+build.xml
 
 # Configuración de NetBeans
 /nbproject/private/
@@ -17,13 +18,19 @@ nb-private-configuration.xml
 *.log
 *.err
 
-# Archivos temporales y de sistema
-*~
-.DS_Store
+# Archivos de la JVM
+hs_err_pid*
+.classpath
 .project
 .settings
-.classpath
+.factorypath
+.metadata
 
-# Ignorar archivos generados por otros IDEs
-.idea
+# Archivos de sistema y temporales
+*~
+.DS_Store
 .vscode
+.idea
+*.bak
+*.swp
+*.tmp
