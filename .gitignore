@@ -1,0 +1,29 @@
+# Archivos de build y compilación
+/build/
+/dist/
+*.jar
+*.war
+*.ear
+*.class
+*.zip
+*.rar
+*.7z
+
+# Configuración de NetBeans
+/nbproject/private/
+/nb-configuration.xml
+nb-private-configuration.xml
+/manifest.mf
+*.log
+*.err
+
+# Archivos temporales y de sistema
+*~
+.DS_Store
+.project
+.settings
+.classpath
+
+# Ignorar archivos generados por otros IDEs
+.idea
+.vscode
